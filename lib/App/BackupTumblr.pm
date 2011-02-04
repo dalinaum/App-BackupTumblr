@@ -21,7 +21,9 @@ our $VERSION = '0.01';
 
 App::BackupTumblr backups your Tumblr articles.    
 
-    BackupTumblr http://dalinaum-kr.tumblr.com
+    BackupTumblr <URL>
+
+<URL> is optional, default value is L<http://dalinaum-kr.tumblr.com>. BackupTumblr backups URL's articles into a current directory.
 
 =head1 AUTHOR
 
@@ -50,14 +52,6 @@ You can also look for information at:
 =item * RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-BackupTumblr>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/App-BackupTumblr>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/App-BackupTumblr>
 
 =item * Search CPAN
 

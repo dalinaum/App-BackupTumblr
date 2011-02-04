@@ -7,7 +7,10 @@ VERSION
 SYNOPSIS
     App::BackupTumblr backups your Tumblr articles.
 
-        BackupTumblr http://dalinaum-kr.tumblr.com
+        BackupTumblr <URL>
+
+    <URL> is optional, default value is <http://dalinaum-kr.tumblr.com>.
+    BackupTumblr backups URL's articles into a current directory.
 
 AUTHOR
     Leonardo Kim, "<dalinaum at gmail.com>"
@@ -29,14 +32,6 @@ SUPPORT
     *   RT: CPAN's request tracker
 
         <http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-BackupTumblr>
-
-    *   AnnoCPAN: Annotated CPAN documentation
-
-        <http://annocpan.org/dist/App-BackupTumblr>
-
-    *   CPAN Ratings
-
-        <http://cpanratings.perl.org/d/App-BackupTumblr>
 
     *   Search CPAN
 
