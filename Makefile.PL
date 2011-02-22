@@ -10,6 +10,14 @@ license  'perl';
 
 repository 'git://github.com/dalinaum/App-BackupTumblr.git';
 
+requires 'Module::Install';
+
+requires 'JSON';
+
+requires 'WWW::Tumblr';
+
+requires 'File::Fetch';
+
 build_requires 'Test::More';
 
 system('pod2text lib/App/BackupTumblr.pm > README');

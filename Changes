@@ -3,3 +3,7 @@ Revision history for App-BackupTumblr
 0.01    Date/time
 	Fri Dec 4 18:00:00 KST 2011
         Initial release.
+
+0.02	Date/Time
+	Wed Feb 23 02:12:00 KST 2011
+	Add proper requirements, and some messages.
